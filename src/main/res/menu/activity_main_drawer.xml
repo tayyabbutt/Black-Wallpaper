@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--  <group android:checkableBehavior="single">
+          <item
+              android:id="@+id/nav_camera"
+              android:icon="@drawable/ic_menu_camera"
+              android:title="Import" />
+          <item
+              android:id="@+id/nav_gallery"
+              android:icon="@drawable/ic_menu_gallery"
+              android:title="Gallery" />
+          <item
+              android:id="@+id/nav_slideshow"
+              android:icon="@drawable/ic_menu_slideshow"
+              android:title="Slideshow" />
+          <item
+              android:id="@+id/nav_manage"
+              android:icon="@drawable/ic_menu_manage"
+              android:title="Tools" />
+      </group>-->
+
+
+        <group>
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/misconduct_icon"
+                android:title="Privacy Policy" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_rateUs"
+                android:icon="@drawable/rateus"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_moreApps"
+                android:icon="@drawable/moreapps"
+                android:title="More Apps" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+        </group>
+
+
+</menu>
